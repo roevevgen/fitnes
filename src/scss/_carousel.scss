@@ -1,0 +1,47 @@
+.carousel {
+  height: 100%;
+
+  .carousel-inner {
+    height: 100%;
+
+    .carousel-item,
+    .active {
+      height: 100%;
+    }
+  }
+}
+header{
+
+}
+.carousel-fade{
+  .carousel-indicators{
+
+  }
+  .carousel-inner{
+    .carousel-item{
+      .view{
+        img{
+
+        }
+        .mask{
+          margin-left: -4.8vw;
+          .hals{
+            font-size: 1.25vw;
+            font-weight: normal;
+            margin-bottom: -2rem;
+
+          }
+          .hals__wept{
+            color: $wh;
+            margin-top: -6vh;
+
+          }
+        }
+      }
+    }
+  }
+}
+
+.carousel__head{
+  height: 100vh;
+}

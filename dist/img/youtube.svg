@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="29.25" height="20.85" viewBox="0 0 29.25 20.85">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="youtube.svg" class="cls-1" d="M705.258,4302.07h-20.5a4.418,4.418,0,0,0-4.373,4.45v11.94a4.42,4.42,0,0,0,4.373,4.46h20.5a4.416,4.416,0,0,0,4.368-4.46v-11.94a4.413,4.413,0,0,0-4.368-4.45h0Zm-13.177,15.46v-11.22l8.351,5.61Z" transform="translate(-680.375 -4302.06)"/>
+</svg>

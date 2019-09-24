@@ -1,0 +1,76 @@
+$font: 'Open Sans', sans-serif;
+
+
+
+$bk: #000000;
+$wh:#ffffff;
+$gr: #f1f1f1;
+$fr: #7e7e7e;
+$bl: #0b60a8;
+$red: #b5241e;
+
+
+*{
+  box-sizing: border-box
+}
+
+:before,
+:after{
+  box-sizing: border-box
+}
+//html,
+//body,
+//header,
+//.view {
+//  height: 100%;
+//}
+
+
+.carousel,
+.carousel-item,
+.carousel-item.active {
+  height: 100%;
+}
+.carousel-inner {
+  height: 100%;
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #1C2331!important;
+  }
+}
+body{
+  font-family: $font, sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  a{
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 0.875rem;
+  }
+  h1{
+    font-family: $font;
+    font-weight: 900;
+    font-size: 3.75rem;
+    color: $bk;
+    line-height: 0.93;
+    letter-spacing: 3.57px;
+  }
+  img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
+}

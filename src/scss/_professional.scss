@@ -1,0 +1,37 @@
+.img__rounded{
+
+}
+.professional__rex{
+  background: url("../img/rectangle.png") no-repeat;
+  background-size: cover;
+  height: 73vh;
+
+
+}
+.profess__slider{
+  background-color: $bk;
+
+}
+.professional__deft{
+  padding-top: 7vh;
+  padding-bottom: 14vh;
+}
+
+.professional__studio{
+  border: solid 11px #0b60a8;
+  padding-top:2vh;
+  padding-bottom: 2vh;
+  .professional__sect{
+    bottom: -34vh;
+
+    .profess__rider{
+      font-size: .8vw;
+      line-height: 1.31;
+      color: $bk;
+    }
+  }
+
+
+
+
+}

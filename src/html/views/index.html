@@ -1,0 +1,38 @@
+<% var data = {
+title: "Fitness",
+studio:"О студии",
+programs: "программы",
+scheduler: "РАССПИСАНИЕ",
+prices: "ЦЕНЫ",
+contacts: `КОНТАКТЫ`,
+cont: "contacts.html",
+improvements: "улучшение здоровья, профилактика болезней и коррекция фигуры",
+fitness: "Электронный фитнес",
+directions: "Направления",
+disease: "профилактика болезней и коррекция фигуры",
+electronic: "Электронный фитнес",
+health: "здоровье и отличная форма ваших детишек",
+childrens: "детский фитнес",
+developing: "работать над собой, развивая гибкость",
+yoga: "Йога",
+strengthen: "путь к укреплению тела и духа",
+martial: "восточные единоборства",
+enroll: "Записаться на курс",
+rehabilitation: "Реабилитационные программы",
+individual: "индивидульные программы",
+nutrition: "составление меню правильного питания",
+training: "тренажерный</br> зал 200 м²",
+fight :  "самый быстрый и эффективный метод борьбы с лишним весом,объемами и формированием красивого тела",
+schedule: "посмотреть рассписание",
+professional: "Профессионалы",
+own: "своего дела",
+about: "о студии",
+sign: "Записаться на тренировку",
+
+}; %>
+
+<%= _.template(require('./../includes/header.html').default)(data) %>
+<%= _.template(require('./../includes/carousel.html').default)(data) %>
+<%= _.template(require('./../includes/directions.html').default)(data) %>
+<%= _.template(require('./../includes/professional.html').default)(data) %>
+<%= _.template(require('./../includes/footer.html').default)(data) %>

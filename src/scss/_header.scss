@@ -1,0 +1,38 @@
+nav{
+
+.sportiness{
+font-size: 0.75em;
+    .mari{
+      font-size:1.25em;
+      line-height: 1.18;
+      font-weight: bold;
+    }
+  }
+.nav-item{
+  #header__rob1,
+  #header__rob2,
+  #header__rob3,
+  #header__rob4,
+  #header__rob5{
+    &:hover,
+    &:active {
+      color: $bl;
+      &:before,
+      &:after{
+        backface-visibility: hidden;
+        content: "";
+       display: block;
+        margin: 0 auto;
+        position: relative;
+        border-color: $bl;
+        transition: width 300ms ease-in-out;
+        width: 60%;
+      }
+    }
+  }
+  a{
+    margin-right: 2.1875em;
+
+  }
+}
+}

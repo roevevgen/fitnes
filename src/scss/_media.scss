@@ -1,0 +1,40 @@
+//section, header, footer{
+//  padding: 0 15px;
+//}
+//
+//@media (min-width: 575.98px) {
+//  section, header, footer {
+//    padding: 0 calc(50vw - 270px);
+//  }
+//}
+//
+//@media (min-width: 767.98px){
+// section, header, footer {
+//   padding: 0 calc(50vw - 360px);
+//  }
+//}
+//
+//@media (min-width: 991.98px) {
+// section, header, footer {
+//   padding: 0 calc(50vw - 480px);
+// }
+//}
+//
+//@media (min-width: 1199.98px){
+//  section, header, footer {
+//    padding: 0 calc(50vw - 590px);
+// }
+//}@media (min-width: 1199.98px){
+// section, header, footer {
+//   padding: 0 calc(50vw - 590px);
+// }
+//}
+
+@media screen and (min-width: 425px) and (max-width: 842px){
+  .hals{
+    font-size:14px;
+  }
+  .hals__wept{
+    font-size:18px;
+  }
+}

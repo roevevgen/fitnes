@@ -1,0 +1,16 @@
+<% var data = {
+title: "Contacts",
+studio:"О студии",
+programs: "программы",
+scheduler: "РАССПИСАНИЕ",
+prices: "ЦЕНЫ",
+contacts: "КОНТАКТЫ",
+cont: "contacts.html",
+to_send: "отправить",
+
+}; %>
+
+
+<%= _.template(require('./../includes/header1.html').default)(data) %>
+<%= _.template(require('./../includes/contact.html').default)(data) %>
+<%= _.template(require('./../includes/footer1.html').default)(data) %>

@@ -1,0 +1,67 @@
+.contact{
+
+  .container{
+    max-width: 82vw;
+    margin: 0 auto;
+    height: 100%;
+    overflow: hidden;
+    .footer__contact{
+      .footer__city{
+        font-size: 1.125vw;
+        font-weight: 700;
+        line-height: 1.4;
+        color: $bk;
+      }
+      .footer__map{
+        font-size: 0.875vw;
+        line-height: 1.54;
+        color: $red;
+      }
+      .fas{
+        //height: 17px;
+        color: $bl;
+        margin-right: .75vw;
+      }
+
+
+    }
+    .form__to_send{
+      background-color: $gr;
+    }
+  }
+}
+.footer__city{
+  font-size: 1.125vw;
+  font-weight: 700;
+  line-height: 1.4;
+  color: $bk;
+}
+.footer__communication{
+  font-size: 2vw;
+  font-weight: 700;
+  line-height: 1.31;
+  color: $bk;
+  &:after{
+    content: '';
+    width: 66px;
+    height: 4px;
+    background-color: $bl;
+    display: inline-block;
+    position: absolute;
+    bottom: 4px;
+    left:calc(50% - 56px); /*это свойство автоматически высч центр*/
+  }
+}
+
+.footer__contacts{
+  &:after{
+    content: '';
+    width: 66px;
+    height: 4px;
+    background-color: $bl;
+    display: inline-block;
+    position: absolute;
+    bottom: 4px;
+    left:calc(50% - 56px); /*это свойство автоматически высч центр*/
+  }
+}
